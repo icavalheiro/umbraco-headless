@@ -1,6 +1,4 @@
-using Umbraco.Cms.Core.Sections;
-
-namespace HeadlessTest
+namespace UmbracoHeadless.Example
 {
     public class Startup
     {
@@ -31,20 +29,12 @@ namespace HeadlessTest
         /// </remarks>
         public void ConfigureServices(IServiceCollection services)
         {
-            var builder = services.AddUmbraco(_env, _config)
+            services.AddUmbraco(_env, _config)
                 .AddBackOffice()
                 .AddWebsite()
-                .AddComposers();
-
-            builder.Sections().Remove<FormsSection>();
-
-            if (!_env.IsDevelopment())
-            {
-                builder.Sections().Remove<SettingsSection>();
-                builder.Sections().Remove<PackagesSection>();
-            }
-
-            builder.Build();
+                .AddComposers()
+                .SanitizeBackOffice(_env.IsDevelopment())
+                .Build();
         }
 
         /// <summary>
