@@ -12,9 +12,9 @@ public static class Extensions
         if (!isDevEnv)
         {
             builder.Sections().Remove<SettingsSection>();
-            builder.Sections().Remove<PackagesSection>();
         }
 
+        builder.Sections().Remove<PackagesSection>();
         builder.Dashboards().Remove<ContentDashboard>();
 
         return builder;
