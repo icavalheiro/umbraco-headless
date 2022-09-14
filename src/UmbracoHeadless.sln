@@ -1,34 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHeadless", "UmbracoHeadless\UmbracoHeadless.csproj", "{C5A2BA82-C450-4303-955F-5BAF15F9D704}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoHeadless", "UmbracoHeadless\UmbracoHeadless.csproj", "{C5A2BA82-C450-4303-955F-5BAF15F9D704}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHeadless.Example", "UmbracoHeadless.Example\UmbracoHeadless.Example.csproj", "{EF86EDF9-E94B-4B0A-BD88-5599EBEE97C9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UmbracoHeadless.CMS", "UmbracoHeadless.CMS\UmbracoHeadless.CMS.csproj", "{6F653277-BBDB-44BE-9984-B1EC5C9835D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UmbracoHeadless.CMS", "UmbracoHeadless.CMS\UmbracoHeadless.CMS.csproj", "{6F653277-BBDB-44BE-9984-B1EC5C9835D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C5A2BA82-C450-4303-955F-5BAF15F9D704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C5A2BA82-C450-4303-955F-5BAF15F9D704}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A2BA82-C450-4303-955F-5BAF15F9D704}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A2BA82-C450-4303-955F-5BAF15F9D704}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF86EDF9-E94B-4B0A-BD88-5599EBEE97C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF86EDF9-E94B-4B0A-BD88-5599EBEE97C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF86EDF9-E94B-4B0A-BD88-5599EBEE97C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF86EDF9-E94B-4B0A-BD88-5599EBEE97C9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6F653277-BBDB-44BE-9984-B1EC5C9835D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F653277-BBDB-44BE-9984-B1EC5C9835D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F653277-BBDB-44BE-9984-B1EC5C9835D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F653277-BBDB-44BE-9984-B1EC5C9835D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC1F6C8D-7B02-444F-9D6C-1D8986AE6E88}
 	EndGlobalSection
 EndGlobal
